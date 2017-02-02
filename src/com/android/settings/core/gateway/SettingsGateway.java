@@ -41,6 +41,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppDashboardFragment;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.appcompat.UserAspectRatioDetails;
 import com.android.settings.applications.appinfo.AlarmsAndRemindersDetails;
@@ -383,6 +384,7 @@ public class SettingsGateway {
             WirelessDebuggingFragment.class.getName(),
             BatterySaverAdvancedSettings.class.getName(),
             VolumeSteps.class.getName(),
+            RunningServices.class.getName(),
             YaapSettings.class.getName()
     };
 
@@ -434,6 +436,7 @@ public class SettingsGateway {
             Settings.GamingModeActivity.class.getName(),
             Settings.YAAPSettingsActivity.class.getName(),
             Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
             Settings.WirelessDebuggingActivity.class.getName(),
     };
 }

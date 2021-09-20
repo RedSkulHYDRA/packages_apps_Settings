@@ -264,4 +264,7 @@
     <!-- extra dim schedule -->
     <string name="extra_dim_schedule_title">Schedule</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+
 </resources>

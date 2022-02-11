@@ -96,6 +96,7 @@ android_library {
         "SystemUIUnfoldLib",
         "SurfaceFlingerProperties",
         "google-securityhub",
+        "faceunlock_framework",
     ],
 
     libs: [

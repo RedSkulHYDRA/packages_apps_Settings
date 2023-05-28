@@ -4610,18 +4610,6 @@
                 android:value="@string/menu_key_yasp"/>
         </activity>
 
-        <activity android:name=".Settings$GamingModeActivity"
-                  android:label="@string/gaming_mode_tile_title"
-                  android:icon="@drawable/ic_yaap_settings_icon"
-                  android:exported="true">
-            <intent-filter android:priority="69">
-                <action android:name="com.android.settings.GAMING_MODE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.android.settings.gaming.GamingModeFragment" />
-        </activity>
-
         <receiver android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver"
                   android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS" android:exported="true">
             <intent-filter>

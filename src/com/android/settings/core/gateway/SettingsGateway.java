@@ -104,7 +104,6 @@ import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
 import com.android.settings.fuelgauge.batteryusage.PowerUsageSummary;
-import com.android.settings.gaming.GamingModeFragment;
 import com.android.settings.gestures.ButtonNavigationSettingsFragment;
 import com.android.settings.gestures.DoubleTapScreenSettings;
 import com.android.settings.gestures.GestureNavigationSettingsFragment;
@@ -347,7 +346,6 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            GamingModeFragment.class.getName(),
             RunningServices.class.getName(),
             WirelessDebuggingFragment.class.getName(),
             YaapSettings.class.getName(),
@@ -395,8 +393,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
-            // Others (YAAP Additions)
-            Settings.GamingModeActivity.class.getName(),
+            // Others (YAAP Additions))
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.YAAPSettingsActivity.class.getName(),
             Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),

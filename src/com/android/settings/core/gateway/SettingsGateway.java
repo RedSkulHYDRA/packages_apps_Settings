@@ -180,8 +180,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.yasp.settings.YaapSettings;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
-import com.google.android.settings.security.SecurityHubDashboard;
-
 public class SettingsGateway {
 
     /**
@@ -349,8 +347,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             WirelessDebuggingFragment.class.getName(),
             YaapSettings.class.getName(),
-            WifiTetherClientManager.class.getName(),
-            SecurityHubDashboard.class.getName()
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
